@@ -38,9 +38,9 @@ public class PersonRepositoryTest {
      @Test
      public void createPerson() {
          repo = ctx.getBean(PersonRepository.class);
-         Person p = new Person.Builder("kabasob@cput.ac.za")
-                 .firstname("B")
-                 .lastnaname("K")
+         Person p = new Person.Builder("BradleyJosephb@cput.ac.za")
+                 .firstname("Bradley")
+                 .lastnaname("Joseph")
                  .build();
          repo.save(p);
          id = p.getId();
@@ -53,7 +53,7 @@ public class PersonRepositoryTest {
      public void readPerson(){
          repo = ctx.getBean(PersonRepository.class);
          Person person = repo.findOne(id);
-         Assert.assertEquals(person.getFirstname(), "B");
+         Assert.assertEquals(person.getFirstname(), "Bradley");
          
      }
      
@@ -61,15 +61,15 @@ public class PersonRepositoryTest {
      private void updatePerson(){
          repo = ctx.getBean(PersonRepository.class);
          Person person = repo.findOne(id);
-         Person updatedPerson = new Person.Builder("kabasob@cput.ac.za")
+         Person updatedPerson = new Person.Builder("BradleyJosephb@cput.ac.za")
                  .person(person)
-                 .firstname("Boniface")
+                 .firstname("Bradley")
                  .build();
         
          repo.save(updatedPerson);
          
          Person newPerson = repo.findOne(id);
-         Assert.assertEquals(newPerson.getFirstname(), "Boniface");
+         Assert.assertEquals(newPerson.getFirstname(), "Bradley");
          
      }
      

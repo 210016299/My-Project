@@ -63,7 +63,7 @@ public class Customer implements Serializable {
 
     @Override
     public String toString() {
-        return "com.kabaso.askweb.domain.Customer[ id=" + id + " ]";
+        return "com.joseph.california.domain.Customer[ id=" + id + " ]";
     }
     
 }

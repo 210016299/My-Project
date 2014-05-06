@@ -84,7 +84,7 @@ public class Club implements Serializable {
 
     @Override
     public String toString() {
-        return "com.kabaso.askweb.domain.Club[ id=" + id + " ]";
+        return "com.joseph.california.domain.Club[ id=" + id + " ]";
     }
     
 }
