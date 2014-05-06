@@ -4,7 +4,7 @@
  * and open the template in the editor.
  */
 
-package com.kabaso.askweb.test.respository;
+package com.joseph.california.test.respository;
 
 import com.joseph.california.app.conf.ConnectionConfig;
 import com.joseph.california.domain.Customer;
@@ -19,7 +19,7 @@ import org.testng.annotations.Test;
 
 /**
  *
- * @author boniface
+ * @author BradleyJoseph
  */
 
 public class CustomerRepositoryTest {

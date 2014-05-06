@@ -4,13 +4,13 @@
  * and open the template in the editor.
  */
 
-package com.kabaso.askweb.test.services;
+package com.joseph.california.test.services;
 
 import com.joseph.california.app.conf.ConnectionConfig;
 import com.joseph.california.domain.Person;
 import com.joseph.california.respository.PersonRepository;
 import com.joseph.california.services.TotalPeopleService;
-import static com.kabaso.askweb.test.respository.PersonRepositoryTest.ctx;
+import static com.joseph.california.test.respository.PersonRepositoryTest.ctx;
 import java.util.List;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -24,7 +24,7 @@ import org.testng.annotations.Test;
 
 /**
  *
- * @author hashcode
+ * @author BradleyJoseph
  */
 public class TotalNumberTest {
         public static ApplicationContext ctx;
