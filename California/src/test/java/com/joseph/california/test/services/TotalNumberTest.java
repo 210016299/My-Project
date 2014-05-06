@@ -43,7 +43,7 @@ public class TotalNumberTest {
          service = ctx.getBean(TotalPeopleService.class);
          List<Person> people = service.getTotalPeople();
          
-         Assert.assertEquals(0, people.size(), " Expert no People");
+         Assert.assertEquals(0, people.size(), " Expected no People");
      
      }
 
